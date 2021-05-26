@@ -13,7 +13,7 @@ var svg = d3.select("#scatter")
           "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("../assets/data/data.csv").then( data => {
+d3.csv("./../assets/data/data.csv").then( data => {
 
 
   // Add X axis
